@@ -1,2 +1,5 @@
 # RNN_LSTM
 RNN ile Türkçe Tweetlerden Çok Sınıflı Duygu Analizi
+
+Twitter, kullanıcıların ‘tweet’ adı verilen mesajlarını yayınlayabildiği bir sosyal medya platformudur. Twitter üzerinde bir ürün, kişi veya olay hakkında bir görüşün; hangi duyguyu temsil ettiğini öğrenmek için binlerce tweet okumak ve yorumlamak gerekmektedir. Duygu analizi ile bu işlemi otomatik olarak kısa bir sürede gerçekleştirmek mümkündür. Bu çalışmada; 5 farklı duygu kategorisine ayrılmış Türkçe  tweetlerden oluşan veri seti ile derin öğrenme yöntemi olan RNN mimarisi kullanılarak  duygu analizi gerçekleştirilmiştir. Veri setinde “kızgın”,” korku”,” mutlu”,” sürpriz”,” üzgün” duygularının her birinde eşit sayıda tweetler bulunmaktadır. RNN mimarisine dayanan LSTM, BiLSTM ve GRU ile çok sınıflı duygu analizi gerçekleştirilerek kurulan modellerin başarıları karşılaştırılmıştır. Test verilerinde en yüksek doğruluk %95 ile geçmiş ve gelecek kelime bağlamlarında oldukça başarılı olan çift yönlü LSTM yani BiLSTM ile kurulan modelde olmuştur.
+Anahtar Kelimeler — rnn, lstm, nlp, doğal dil işleme, duygu analizi
